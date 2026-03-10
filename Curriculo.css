@@ -1,0 +1,50 @@
+img {
+    box-shadow: 0px 0px 10px 5px rgb(0, 51, 57);
+    border: 3px solid rgb(0, 255, 38);
+    border-radius: 30px;
+    width: 200px;
+}
+.aling {
+    justify-content: center;
+    display: flex;
+    justify-self: center;
+}
+body.background {
+    transform: translateY(-10px);
+    height: 100vh;
+    background: linear-gradient(120deg, #216e1a 25%, rgb(85, 255, 0) 75%);
+}
+h1 {
+    width: 300px;
+    color: rgb(0, 255, 38);
+    background-color: rgb(0, 163, 65);
+    font-family: 'Courier';
+    border: 3px solid rgb(0, 255, 38);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 5px rgb(0, 163, 65);
+}
+.paragrafo {
+    justify-self: center;
+    padding: 5px;
+    font-size: 30px;
+    color: rgb(0, 255, 38);
+    box-shadow: 0px 0px 10px 5px rgb(0, 51, 57);
+    border-radius: 16px;
+    border: 3px solid rgb(0, 255, 38);
+    width: fit-content;
+    background-color: rgb(0, 92, 37);
+    font-family: cursive;
+}
+.lf {
+    justify-self: center;
+    padding: 5px;
+    list-style-position: inside;
+    color: rgb(0, 255, 38);
+    font-size: 20px;
+    box-shadow: 0px 0px 10px 5px rgb(0, 163, 65);
+    border-radius: 16px;
+    border: 3px solid rgb(0, 255, 38);
+    width: fit-content;
+    background-color: rgb(0, 163, 65);
+    font-family: cursive;
+}
